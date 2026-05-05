@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学术主页</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <header id="header">
+    <div class="container nav">
+      <a href="#" class="nav-name" id="navName"></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" data-lang="zh">关于</a>
+        <a href="#about" data-lang="en" class="hidden">About</a>
+        <a href="#research" data-lang="zh">研究方向</a>
+        <a href="#research" data-lang="en" class="hidden">Research</a>
+        <a href="#publications" data-lang="zh">论文</a>
+        <a href="#publications" data-lang="en" class="hidden">Publications</a>
+        <a href="#education" data-lang="zh">教育背景</a>
+        <a href="#education" data-lang="en" class="hidden">Education</a>
+        <a href="#service" data-lang="zh">学术服务</a>
+        <a href="#service" data-lang="en" class="hidden">Service</a>
+        <a href="#news" data-lang="zh">动态</a>
+        <a href="#news" data-lang="en" class="hidden">News</a>
+      </nav>
+      <div class="nav-right">
+        <button id="langBtn" class="btn-lang" title="Switch Language">
+          <span data-lang="zh">EN</span>
+          <span data-lang="en" class="hidden">中文</span>
+        </button>
+        <button id="menuBtn" class="btn-menu" aria-label="Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 个人简介 -->
+    <section id="about" class="section hero">
+      <div class="container">
+        <div class="hero-grid" id="heroContent"></div>
+      </div>
+    </section>
+
+    <!-- 研究方向 -->
+    <section id="research" class="section section-gray">
+      <div class="container">
+        <h2 class="section-title">
+          <span data-lang="zh">研究方向</span>
+          <span data-lang="en" class="hidden">Research</span>
+        </h2>
+        <div class="research-list" id="researchContent"></div>
+      </div>
+    </section>
+
+    <!-- 论文 -->
+    <section id="publications" class="section">
+      <div class="container">
+        <h2 class="section-title">
+          <span data-lang="zh">代表性论文</span>
+          <span data-lang="en" class="hidden">Selected Publications</span>
+        </h2>
+        <div class="pub-filters">
+          <button class="filter-btn active" data-filter="all" data-lang="zh">全部</button>
+          <button class="filter-btn active hidden" data-filter="all" data-lang="en">All</button>
+          <button class="filter-btn" data-filter="journal" data-lang="zh">期刊</button>
+          <button class="filter-btn hidden" data-filter="journal" data-lang="en">Journals</button>
+        </div>
+        <div id="pubList" class="pub-list"></div>
+        <div class="pub-more">
+          <a href="https://scholar.google.com/citations?user=QlXI8CQAAAAJ" target="_blank" class="btn-more">
+            <span data-lang="zh">Google Scholar 查看全部 →</span>
+            <span data-lang="en" class="hidden">View all on Google Scholar →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section id="education" class="section section-gray">
+      <div class="container">
+        <h2 class="section-title">
+          <span data-lang="zh">教育背景</span>
+          <span data-lang="en" class="hidden">Education</span>
+        </h2>
+        <div class="edu-list" id="educationContent"></div>
+      </div>
+    </section>
+
+    <!-- 学术服务 -->
+    <section id="service" class="section">
+      <div class="container">
+        <h2 class="section-title">
+          <span data-lang="zh">学术服务</span>
+          <span data-lang="en" class="hidden">Academic Service</span>
+        </h2>
+        <div class="service-list" id="serviceContent"></div>
+      </div>
+    </section>
+
+    <!-- 动态 -->
+    <section id="news" class="section section-gray">
+      <div class="container">
+        <h2 class="section-title">
+          <span data-lang="zh">最新动态</span>
+          <span data-lang="en" class="hidden">News</span>
+        </h2>
+        <div class="news-list" id="newsContent"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p id="footerText"></p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/renderer.js"></script>
+  <script src="js/publications.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+/* ============================================
+   响应式
+   ============================================ */
+
+@media (max-width: 768px) {
+  .container { padding: 0 1.25rem; }
+
+  /* 导航 */
+  .nav-links {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    right: 0;
+    background: var(--c-bg);
+    border-bottom: 1px solid var(--c-border);
+    flex-direction: column;
+    padding: 0.75rem 1.25rem;
+    gap: 0;
+    display: none;
+    z-index: 99;
+  }
+  .nav-links.open { display: flex; }
+  .nav-links a {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--c-border);
+  }
+  .nav-links a:last-child { border-bottom: none; }
+
+  .btn-menu { display: flex; }
+
+  /* Hero */
+  .hero { padding: 3.5rem 0 2.5rem; }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .hero-left { display: flex; justify-content: center; }
+  .avatar { width: 120px; height: 120px; }
+
+  .hero-contact { justify-content: center; }
+  .hero-tags { justify-content: center; }
+
+  /* 板块 */
+  .section { padding: 3rem 0; }
+
+  .section-title { margin-bottom: 2rem; }
+
+  /* 教育 */
+  .edu-item { flex-direction: column; gap: 0.25rem; }
+  .edu-year { width: auto; }
+
+  /* 教学 */
+  .teaching-item { gap: 1rem; }
+  .teaching-code { width: 60px; }
+
+  /* 新闻 */
+  .news-item { gap: 1rem; }
+  .news-date { width: 60px; }
+}
+
+@media (max-width: 480px) {
+  body { font-size: 14px; }
+
+  .hero-right h1 { font-size: 1.6rem; }
+
+  .hero-contact { flex-direction: column; align-items: center; gap: 0.5rem; }
+
+  .pub-filters { flex-wrap: wrap; }
+
+  .team-member { flex-direction: column; gap: 0.15rem; }
+}

@@ -1,0 +1,154 @@
+{
+  "zh": {
+    "name": "黄波",
+    "name_en": "Bo Huang",
+    "title": "副研究员",
+    "department": "地球科学学院",
+    "university": "中国地质大学（武汉）",
+    "room": "TGRC楼 404室",
+    "address": "湖北省武汉市洪山区鲁磨路388号 430074",
+    "email": "bohuang@cug.edu.cn",
+    "scholar_id": "QlXI8CQAAAAJ",
+    "social": {
+      "scholar": "https://scholar.google.com/citations?user=QlXI8CQAAAAJ",
+      "researchgate": "https://www.researchgate.net/profile/Bo-Huang-17",
+      "homepage_zh": "https://grzy.cug.edu.cn/huangbo/zh_CN/index.htm",
+      "homepage_en": "https://grzy.cug.edu.cn/huangbo/en/index.htm"
+    },
+    "bio": "中国地质大学（武汉）副研究员。主要从事前寒武纪地质学、早期地球演化与构造体制、太古宙板块构造等方面的研究工作，研究区域涉及华北克拉通、中亚造山带和特提斯构造域。综合运用野外填图、构造解析、年代学、地球化学、同位素和相平衡模拟等方法，聚焦太古宙TTG-绿岩带、蛇绿岩/混杂岩、变质作用和沉积盆地等关键地质问题。",
+    "research_interests": [
+      {
+        "title": "前寒武纪地质与早期地球演化",
+        "desc": "聚焦华北克拉通和华南克拉通，研究早期地球环境、构造与地球动力学的长期演化"
+      },
+      {
+        "title": "太古宙板块构造",
+        "desc": "研究太古宙俯冲-增生-碰撞构造体制，探索现代板块构造的起始时间与机制"
+      },
+      {
+        "title": "蛇绿岩/混杂岩与造山带演化",
+        "desc": "中亚造山带和特提斯构造域的增生-碰撞演化过程及其地球动力学机制"
+      },
+      {
+        "title": "变质地质学与相平衡模拟",
+        "desc": "运用相平衡模拟方法研究变质岩的P-T演化轨迹，揭示构造热演化历史"
+      },
+      {
+        "title": "沉积物源分析与盆地演化",
+        "desc": "通过碎屑锆石年代学和地球化学方法，分析沉积盆地的物源特征与构造背景"
+      }
+    ],
+    "tags": ["前寒武纪地质", "太古宙构造", "蛇绿岩/混杂岩", "变质作用", "华北克拉通"],
+    "education": [
+      {
+        "period": "2016.09 – 2020.06",
+        "degree": "博士 构造地质学",
+        "school": "中国地质大学（武汉）",
+        "detail": "导师：Timothy M. Kusky 教授"
+      },
+      {
+        "period": "2017.10 – 2018.01\n2019.04 – 2020.04",
+        "degree": "联合培养博士生",
+        "school": "澳大利亚科廷大学",
+        "detail": "合作导师：Simon A. Wilde 教授、Tim E. Johnson 教授"
+      },
+      {
+        "period": "2010.09 – 2016.06",
+        "degree": "本科/硕士 地质学",
+        "school": "中国地质大学（武汉）",
+        "detail": ""
+      }
+    ],
+    "teaching": [],
+    "team": {
+      "current": [],
+      "alumni": [],
+      "notice": "欢迎对前寒武纪地质、构造地质和地球化学感兴趣的同学联系我。"
+    },
+    "service": {
+      "review": ["Earth-Science Reviews", "GSA Bulletin", "Chemical Geology", "Tectonics", "Precambrian Research", "Lithos", "Geoscience Frontiers", "Journal of Earth Science"],
+      "editorial": ["Journal of Earth Science 青年编委", "地球科学 青年编委"],
+      "organizations": []
+    },
+    "news": [
+      {"date": "2025.11", "content": "入选武汉英才优秀青年人才"},
+      {"date": "2023.10", "content": "参加 Continental Crust Evolution and Early Plate Tectonics 2023 国际研讨会，做口头报告"}
+    ]
+  },
+  "en": {
+    "name": "Bo Huang",
+    "name_en": "Bo Huang",
+    "title": "Associate Professor",
+    "department": "School of Earth Sciences",
+    "university": "China University of Geosciences, Wuhan",
+    "room": "Room 404, TGRC Building, East Campus",
+    "address": "388 Lumo Road, Hongshan District, Wuhan, Hubei 430074, China",
+    "email": "bohuang@cug.edu.cn",
+    "scholar_id": "QlXI8CQAAAAJ",
+    "social": {
+      "scholar": "https://scholar.google.com/citations?user=QlXI8CQAAAAJ",
+      "researchgate": "https://www.researchgate.net/profile/Bo-Huang-17",
+      "homepage_zh": "https://grzy.cug.edu.cn/huangbo/zh_CN/index.htm",
+      "homepage_en": "https://grzy.cug.edu.cn/huangbo/en/index.htm"
+    },
+    "bio": "Associate Professor at China University of Geosciences, Wuhan (CUG). Research focuses on Precambrian geology, early Earth evolution and geodynamics, and Archean plate tectonics, with field areas in the North China Craton, Central Asian Orogenic Belt, and Tethyan tectonic domain. Integrates field mapping, structural anatomy, geochronology, geochemistry, isotope analysis, and phase equilibrium modelling to investigate Archean TTG-greenstone belts, ophiolite/mélanges, metamorphism, and sedimentary basins.",
+    "research_interests": [
+      {
+        "title": "Precambrian Geology & Early Earth Evolution",
+        "desc": "Secular changes of environment, tectonics, and geodynamics of the early Earth, with focus on the North and South China cratons"
+      },
+      {
+        "title": "Archean Plate Tectonics",
+        "desc": "Subduction-accretion-collision processes in the Archean, exploring the onset and mechanisms of modern-style plate tectonics"
+      },
+      {
+        "title": "Ophiolite/Mélange & Orogenic Belt Evolution",
+        "desc": "Accretionary and collisional evolution of orogenic belts in Central Asia and the Tethyan domain"
+      },
+      {
+        "title": "Metamorphic Geology & Phase Equilibrium Modelling",
+        "desc": "P-T evolution of metamorphic rocks using phase equilibrium modelling to reveal tectonothermal histories"
+      },
+      {
+        "title": "Sedimentary Provenance & Basin Analysis",
+        "desc": "Detrital zircon geochronology and geochemistry for provenance analysis and tectonic setting reconstruction"
+      }
+    ],
+    "tags": ["Precambrian Geology", "Archean Tectonics", "Ophiolite/Mélange", "Metamorphism", "North China Craton"],
+    "education": [
+      {
+        "period": "2016.09 – 2020.06",
+        "degree": "Ph.D. Structural Geology and Tectonics",
+        "school": "China University of Geosciences, Wuhan",
+        "detail": "Supervisor: Prof. Timothy M. Kusky"
+      },
+      {
+        "period": "2017.10 – 2018.01\n2019.04 – 2020.04",
+        "degree": "Visiting Ph.D. Student",
+        "school": "Curtin University, Australia",
+        "detail": "Co-supervisors: Profs. Simon A. Wilde & Tim E. Johnson"
+      },
+      {
+        "period": "2010.09 – 2016.06",
+        "degree": "B.Sc. & M.Sc. Geology",
+        "school": "China University of Geosciences, Wuhan",
+        "detail": ""
+      }
+    ],
+    "teaching": [],
+    "team": {
+      "current": [],
+      "alumni": [],
+      "notice": "Students interested in Precambrian geology, structural geology, and geochemistry are welcome to contact me."
+    },
+    "service": {
+      "review": ["Earth-Science Reviews", "GSA Bulletin", "Chemical Geology", "Tectonics", "Precambrian Research", "Lithos", "Geoscience Frontiers", "Journal of Earth Science"],
+      "editorial": ["Youth Editorial Board, Journal of Earth Science", "Youth Editorial Board, Earth Science"],
+      "organizations": []
+    },
+    "news": [
+      {"date": "2025.11", "content": "Selected for Wuhan Talent Program for Outstanding Young Scholars"},
+      {"date": "2023.10", "content": "Oral presentation at CCE-EPT 2023 International Symposium, Beijing"}
+    ]
+  }
+}
