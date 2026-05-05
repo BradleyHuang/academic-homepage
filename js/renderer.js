@@ -99,6 +99,10 @@ const Renderer = (() => {
         },
         "news": [
             {
+                "date": "2026.05",
+                "content": "《Precambrian Research》论文：五台变泥质岩揭示古元古代长期缓慢碰撞造山过程"
+            },
+            {
                 "date": "2025.11",
                 "content": "入选武汉英才优秀青年人才"
             },
@@ -204,6 +208,10 @@ const Renderer = (() => {
             "organizations": []
         },
         "news": [
+            {
+                "date": "2026.05",
+                "content": "New study published in Precambrian Research: Wutai Metapelites Record a Long-Lived Paleoproterozoic Collisional Orogeny"
+            },
             {
                 "date": "2025.11",
                 "content": "Selected for Wuhan Talent Program for Outstanding Young Scholars"
